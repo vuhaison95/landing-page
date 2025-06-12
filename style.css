@@ -11,7 +11,7 @@ body {
 .header {
     background-color: #1F2937;
     color: white;
-    padding: 0 150px;
+    padding: 0 225px;
 }
 
 .header-top {
@@ -51,7 +51,7 @@ a {
 }
 
 .header-intro {
-    max-width: 300px;
+    min-width: 300px;
 }
 
 
@@ -79,7 +79,6 @@ a {
 
 
 .header-intro button {
-    display: block;
     color: white;
     background-color: #3882F6;
     font-weight: bold;
@@ -93,6 +92,7 @@ a {
     display: flex;
     flex-direction: column;
     flex: 1;
+
 }
 
 .content1, .content2, .content3 {
@@ -104,13 +104,14 @@ a {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 225px;
+    padding: 50px 225px;
+    gap: 24px;
 }
 
 .content1-main {
     display: flex;
     flex-wrap: wrap;
-    gap: 50px;
+    gap: 75px;
 }
 
 .box {
@@ -118,6 +119,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 24px;
 }
 
 .image {
@@ -141,3 +143,65 @@ a {
     color: #1F2937;
 }
 
+.content2 {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 325px;
+    justify-content: center;
+    /* align-items: end; */
+    
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    /* max-width: 600px; */
+}
+
+.author {
+    font-weight: bold;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 8px;
+}
+
+
+.content3 {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    padding: 50px 125px;
+    margin: 50px 325px;
+    border-radius: 5px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content3 button {
+    color: white;
+    background-color: #3882F6;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+
+.signup-bold {
+    font-weight: bold;
+}
+
+.signup-normal {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.footer {
+    background-color: #1F2937;
+    text-align: center;
+    color: #F9FAF8;
+    padding: 50px;
+}
